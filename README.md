@@ -10,14 +10,6 @@ We tested under version R2020a on systems with:
 - macOS Catalina
 - Ubuntu 18.04
 
-We provide 2 demonstration programs for SfM and SLAM settings:
-- **demo_rcd.m** :
-      - RCD on SfM camera graphs with *n* =1000, 2000 and 3000 cameras.
-      - This demo finishes in about 1 minute.
-
-- **demo_rcdl.m** : RCDL on torus3D and grid3D dataset.
-      - RCDL on SLAM camera graphs (1) torus3D (2) grid3D.
-      - This demo finishes in about 1 minute.
 
 ## Setup ##
 Dependencies:
@@ -50,12 +42,16 @@ Dependencies:
    
 ### Running RCD
   Run **demo_rcd.m** in MATLAB.
-  Here, we provide a demonstration on 3 graph sizes, where *number of nodes* = 1000, 2000 and 3000 and *graph density* = 0.4.
+  
+  Here, we provide a demonstration on 3 different SfM camera graphs where *number of nodes* = 1000, 2000 and 3000 and *graph density* = 0.4.
+  This demo is expected to finish in about 1 minute, which will generate the following outputs:
   
   <img src ="n_1000.png" width="300" height="300"> <img src ="n_2000.png" width="300" height="300"> <img src ="n_3000.png" width="300" height="300">
-
-
-### Run "demo_rcd.m" and "demo_rcdl.m" in MATLAB.
-
-1. Run "demo_rcd.m" for the demonstration of RCD.
-2. Run "demo_rcdl.m" for the demonstration of RCDL.
+  
+### Running RCDL
+  Run **demo_rcdl.m** in MATLAB.
+  
+  Here, we provide a demonstration on 2 different SLAM camera graphs which are torus3D and grid3D.
+  This demo is expected to finish in about 1 minute, which will generate the following outputs:
+  
+  

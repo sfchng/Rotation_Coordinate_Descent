@@ -47,6 +47,11 @@ Dependencies:
     ./build.sh
    ```
    which will create the executables **RCD** and **RCDL** in *bin* folder.
+   
+### Running RCD
+  Run **demo_rcd.m** in MATLAB.
+  Here, we provide a demonstration on 3 graph sizes, where *number of nodes* = 1000, 2000 and 3000 and *graph density* = 0.4.
+
 
 ### Run "demo_rcd.m" and "demo_rcdl.m" in MATLAB.
 

@@ -1,4 +1,4 @@
-# Rotation Coordinate Descent for Fast Globally Optimal Rotation Averaging
+**Rotation Coordinate Descent for Fast Globally Optimal Rotation Averaging**
 
 Coming soon.
 

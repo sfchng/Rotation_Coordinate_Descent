@@ -55,5 +55,14 @@ Dependencies:
   This demo is expected to finish in about 1 minute, which will generate the following outputs:
   
    <img src ="torus.png" width="300" height="300">                <img src ="grid3d.png" width="300" height="300">
+   
+   
+## Citation ##
+@article{parra2021rotation,
+  title={Rotation Coordinate Descent for Fast Globally Optimal Rotation Averaging},
+  author={Parra, {\'A}lvaro and Chng, Shin-Fang and Chin, Tat-Jun and Eriksson, Anders and Reid, Ian},
+  journal={arXiv preprint arXiv:2103.08292},
+  year={2021}
+}
   
   

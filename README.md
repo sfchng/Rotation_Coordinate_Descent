@@ -54,4 +54,6 @@ Dependencies:
   Here, we provide a demonstration on 2 different SLAM camera graphs which are torus3D and grid3D.
   This demo is expected to finish in about 1 minute, which will generate the following outputs:
   
+   <img src ="torus.png" width="300" height="300">                <img src ="grid3d.png" width="300" height="300">
+  
   

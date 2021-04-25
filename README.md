@@ -52,7 +52,7 @@ Dependencies:
   Run **demo_rcd.m** in MATLAB.
   Here, we provide a demonstration on 3 graph sizes, where *number of nodes* = 1000, 2000 and 3000 and *graph density* = 0.4.
   
-  <img src ="n_1000.png" width="300" height="300">
+  <img src ="n_1000.png" width="300" height="300"> <img src ="n_2000.png" width="300" height="300"> <img src ="n_3000.png" width="300" height="300">
 
 
 ### Run "demo_rcd.m" and "demo_rcdl.m" in MATLAB.

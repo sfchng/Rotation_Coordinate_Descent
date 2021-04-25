@@ -1,7 +1,10 @@
-**Rotation Coordinate Descent for Fast Globally Optimal Rotation Averaging**
+-------------
+**RCD: Rotation Coordinate Descent**
+-------------
 
-Coming soon.
+Rotation Coordinate Descent (RCD) is a fast rotation averaging algorithm that achieves global optimality under mild noise conditions on the noise level of the measurements.
 
+## Quick Start
 This demo runs in MATLAB, with **RCD** and **RCDL** compiled in C++.
 We tested under version R2020a on systems with:
 - macOS Catalina
@@ -16,36 +19,36 @@ We provide 2 demonstration programs for SfM and SLAM settings:
       - RCDL on SLAM camera graphs (1) torus3D (2) grid3D.
       - This demo finishes in about 1 minute.
 
--------------
-Run the demo
--------------
-
-####  Dependencies #####
-   1. CMake 3.0 or later **required** [link](https://cmake.org/install/)
+## Setup ##
+Dependencies:
+   1. CMake 3.0 or later **required** [cmake installation link](https://cmake.org/install/)
       - *MacOS*   
-      brew install cmake
+      ```brew install cmake```
 
       - *Ubuntu*  
-      sudo apt-get install cmake
+      ```sudo apt-get install cmake```
 
    2. SuiteSparse **required**
       - *MacOS*
-        brew install suite-sparse
+        ```brew install suite-sparse```
 
       - *Ubuntu*
-        sudo apt-get install libsuitesparse-dev
+        ```sudo apt-get install libsuitesparse-dev```
 
 
-#### Building RCD and RCDL libraries
+## Running demo ##
+
+### Building RCD and RCDL libraries
  We provide a script build.sh to build **RCD** and **RCDL**.
    Please make sure you have installed all required dependencies (see Section 1).
    Execute
-  > chmod +x build.sh
+   ``` 
+   chmod +x build.sh
     ./build.sh
+   ```
+   which will create the executables **RCD** and **RCDL** in *bin* folder.
 
-This will create the executables **RCD** and **RCDL** in *bin* folder.
-
-#### Run "demo_rcd.m" and "demo_rcdl.m" in MATLAB.
+### Run "demo_rcd.m" and "demo_rcdl.m" in MATLAB.
 
 1. Run "demo_rcd.m" for the demonstration of RCD.
 2. Run "demo_rcdl.m" for the demonstration of RCDL.

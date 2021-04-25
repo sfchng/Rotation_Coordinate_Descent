@@ -51,7 +51,8 @@ Dependencies:
 ### Running RCD
   Run **demo_rcd.m** in MATLAB.
   Here, we provide a demonstration on 3 graph sizes, where *number of nodes* = 1000, 2000 and 3000 and *graph density* = 0.4.
-  ![Output](https://github.com/sfchng/Rotation_Coordinate_Descent/n_1000.pdf)
+  
+  [Output](https://github.com/sfchng/Rotation_Coordinate_Descent/n_1000.pdf)
 
 
 ### Run "demo_rcd.m" and "demo_rcdl.m" in MATLAB.

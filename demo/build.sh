@@ -1,3 +1,7 @@
+echo "Unpacking data"
+
+unzip ./data.zip
+
 echo "Configuring and building RCD and RCDL"
 
 cd src

@@ -4,6 +4,16 @@
 
 Rotation Coordinate Descent (RCD) is a fast rotation averaging algorithm that achieves global optimality under mild noise conditions on the noise level of the measurements.
 
+## Citation ##
+
+``` @article{parra2021rotation,
+  title={Rotation Coordinate Descent for Fast Globally Optimal Rotation Averaging},
+  author={Parra, {\'A}lvaro and Chng, Shin-Fang and Chin, Tat-Jun and Eriksson, Anders and Reid, Ian},
+  journal={arXiv preprint arXiv:2103.08292},  
+  year={2021} 
+ }
+```
+
 ## Quick Start
 This demo runs in MATLAB, with **RCD** and **RCDL** compiled in C++.
 We tested under version R2020a on systems with:
@@ -57,14 +67,6 @@ Dependencies:
    <img src ="torus.png" width="300" height="300">                <img src ="grid3d.png" width="300" height="300">
    
    
-## Citation ##
 
-``` @article{parra2021rotation,
-  title={Rotation Coordinate Descent for Fast Globally Optimal Rotation Averaging},
-  author={Parra, {\'A}lvaro and Chng, Shin-Fang and Chin, Tat-Jun and Eriksson, Anders and Reid, Ian},
-  journal={arXiv preprint arXiv:2103.08292},  
-  year={2021} 
- }
-```
   
   

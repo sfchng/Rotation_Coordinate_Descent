@@ -6,12 +6,13 @@ Rotation Coordinate Descent (RCD) is a fast rotation averaging algorithm that ac
 
 ## Citation ##
 
-``` @article{parra2021rotation,
+``` @inproceedings{parra2021rotation,
   title={Rotation Coordinate Descent for Fast Globally Optimal Rotation Averaging},
-  author={Parra, {\'A}lvaro and Chng, Shin-Fang and Chin, Tat-Jun and Eriksson, Anders and Reid, Ian},
-  journal={arXiv preprint arXiv:2103.08292},  
-  year={2021} 
- }
+  author={Parra, Alvaro and Chng, Shin-Fang and Chin, Tat-Jun and Eriksson, Anders and Reid, Ian},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={4298--4307},
+  year={2021}
+}
 ```
 
 ## Quick Start

@@ -43,6 +43,7 @@ Dependencies:
 ## Running demo ##
 
 ### Building RCD and RCDL libraries
+ 
  We provide a script build.sh to build **RCD** and **RCDL**.
    Please make sure you have installed all required dependencies (see Section 1).
    Execute

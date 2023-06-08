@@ -1,5 +1,5 @@
 -------------
-**RCD: Rotation Coordinate Descent**
+**Rotation Coordinate Descent for Fast Globally Optimal Rotation Averaging**
 -------------
 
 Rotation Coordinate Descent (RCD) is a fast rotation averaging algorithm that achieves global optimality under mild noise conditions on the noise level of the measurements.
